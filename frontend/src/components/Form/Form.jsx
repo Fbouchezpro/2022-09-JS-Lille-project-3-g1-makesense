@@ -1,3 +1,4 @@
+import AvatarList from "@components/AvatarList/AvatarList";
 import { IoIosPersonAdd } from "react-icons/io";
 
 import "./style.scss";
@@ -24,12 +25,14 @@ export default function Form() {
           <button className="add" type="button">
             <IoIosPersonAdd />
           </button>
+          <AvatarList />
         </label>
         <label className="add_button" htmlFor="impacted">
           Impactés:
           <button className="add" type="button">
             <IoIosPersonAdd />
           </button>
+          <AvatarList />
         </label>
         <label htmlFor="impact">
           Potentiel répercution
