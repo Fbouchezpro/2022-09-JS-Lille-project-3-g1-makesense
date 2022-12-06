@@ -1,14 +1,8 @@
-import Home from "./pages/Home";
-
+import Form from "@pages/Form/Form";
 import "./App.css";
 
 function App() {
-  return (
-    <div className="App">
-      <Home />
-      <p>coucou</p>
-    </div>
-  );
+  return <Form />;
 }
 
 export default App;
