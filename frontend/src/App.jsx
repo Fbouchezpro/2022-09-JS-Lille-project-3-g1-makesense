@@ -1,8 +1,8 @@
-import Form from "@pages/Form/Form";
+import SugestCard from "@components/SugestCard/SugestCard";
 import "./App.css";
 
 function App() {
-  return <Form />;
+  return <SugestCard />;
 }
 
 export default App;
