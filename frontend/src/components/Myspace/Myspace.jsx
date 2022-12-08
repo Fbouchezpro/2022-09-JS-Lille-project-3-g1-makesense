@@ -10,7 +10,7 @@ import "./Style.scss";
 
 export default function Myhome() {
   return (
-    <Menu pageWrapId={"page-wrap"}>
+    <Menu pageWrapId={"page-no-wrap"}>
       <h1 className="titlelogo">
         {" "}
         Make<span className="underscore">_</span>suggest
@@ -34,6 +34,8 @@ export default function Myhome() {
       <a id="logout" className="menu-item" href="/logout">
         <VscDebugDisconnect /> Logout<span className="endpoint">.</span>
       </a>
+
+      <p className="lang">Fr 🇫🇷 En 🇬🇧 Es 🇪🇸</p>
     </Menu>
   );
 }
