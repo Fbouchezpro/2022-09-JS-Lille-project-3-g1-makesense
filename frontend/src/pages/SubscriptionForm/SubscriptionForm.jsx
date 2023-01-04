@@ -1,11 +1,14 @@
 import "./style.scss";
 import { useState } from "react";
 import axios from "axios";
+import { IoEye, IoEyeOff } from "react-icons/io5";
 import logoMS from "../../assets/pills.svg";
 import logoMS2 from "../../assets/pills2.svg";
 import logoMS3 from "../../assets/pills3.svg";
 
 export default function SubscriptionForm() {
+  const [visible, setVisible] = useState(false);
+  const [visibleTwo, setVisibleTwo] = useState(false);
   const [user, setUser] = useState({
     name: "",
     firstname: "",
@@ -95,24 +98,34 @@ export default function SubscriptionForm() {
             onChange={hChange}
             required
           />
-          <input
-            className="passInput"
-            type="password"
-            name="password"
-            placeholder="password"
-            value={user.password}
-            onChange={hChange}
-            required
-          />
-          <input
-            className="passConfInput"
-            type="password"
-            name="confPass"
-            placeholder="password confirmation"
-            value={user.confPass}
-            onChange={hChange}
-            required
-          />
+          <div className="password">
+            <input
+              className="passInput"
+              type={visible ? "text" : "password"}
+              name="password"
+              placeholder="password"
+              value={user.password}
+              onChange={hChange}
+              required
+            />
+            <button type="button" onClick={() => setVisible(!visible)}>
+              {visible ? <IoEye /> : <IoEyeOff />}
+            </button>
+          </div>
+          <div className="password">
+            <input
+              className="passConfInput"
+              type={visibleTwo ? "text" : "password"}
+              name="confPass"
+              placeholder="password confirmation"
+              value={user.confPass}
+              onChange={hChange}
+              required
+            />
+            <button type="button" onClick={() => setVisibleTwo(!visibleTwo)}>
+              {visibleTwo ? <IoEye /> : <IoEyeOff />}
+            </button>
+          </div>
         </label>
         <button className="validation" type="submit">
           Register
