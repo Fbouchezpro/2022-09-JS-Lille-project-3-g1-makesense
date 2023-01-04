@@ -142,3 +142,9 @@
   margin: 0 1em;
   margin-bottom: 3%;
 }
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}

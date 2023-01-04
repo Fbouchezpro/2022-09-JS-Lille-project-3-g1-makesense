@@ -135,9 +135,14 @@ export default function SubscriptionForm() {
             </button>
           </div>
         </label>
-        <button className="validation" type="submit">
-          Register
-        </button>
+        <div className="button">
+          <button className="validation" type="submit">
+            Register
+          </button>
+          <button type="button" className="validation">
+            Connect
+          </button>
+        </div>
       </form>
     </section>
   );
