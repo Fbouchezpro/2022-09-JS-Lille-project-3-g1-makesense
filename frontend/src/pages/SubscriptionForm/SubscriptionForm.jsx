@@ -27,11 +27,7 @@ export default function SubscriptionForm() {
     if (user.password !== user.confPass) {
       alert("Error: Password is not valid");
     }
-    axios
-      .post(`${import.meta.env.VITE_BACKEND_URL}/users`, user)
-      .catch((err) => {
-        console.error(err);
-      });
+    axios.post(`${import.meta.env.VITE_BACKEND_URL}/users`, user);
   };
   return (
     <section className="subscriptionForm">
@@ -83,7 +79,7 @@ export default function SubscriptionForm() {
           </select>
           <input
             className="emailInput"
-            type="text"
+            type="email"
             name="email"
             placeholder="email"
             value={user.email}
@@ -92,7 +88,7 @@ export default function SubscriptionForm() {
           />
           <input
             className="emailConfInput"
-            type="text"
+            type="email"
             name="confEmail"
             placeholder="email confirmation"
             value={user.confEmail}
@@ -101,7 +97,7 @@ export default function SubscriptionForm() {
           />
           <input
             className="passInput"
-            type="text"
+            type="password"
             name="password"
             placeholder="password"
             value={user.password}
@@ -110,7 +106,7 @@ export default function SubscriptionForm() {
           />
           <input
             className="passConfInput"
-            type="text"
+            type="password"
             name="confPass"
             placeholder="password confirmation"
             value={user.confPass}
