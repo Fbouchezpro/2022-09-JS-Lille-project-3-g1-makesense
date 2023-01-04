@@ -21,6 +21,12 @@ export default function SubscriptionForm() {
   };
   const hSubmit = (evt) => {
     evt.preventDefault();
+    if (user.email !== user.confEmail) {
+      alert("Error: Email is not valid");
+    }
+    if (user.password !== user.confPass) {
+      alert("Error: Password is not valid");
+    }
     axios
       .post(`${import.meta.env.VITE_BACKEND_URL}/users`, user)
       .catch((err) => {
