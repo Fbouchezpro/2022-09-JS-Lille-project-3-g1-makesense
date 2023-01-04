@@ -108,7 +108,11 @@ export default function SubscriptionForm() {
               onChange={hChange}
               required
             />
-            <button type="button" onClick={() => setVisible(!visible)}>
+            <button
+              className="visibility"
+              type="button"
+              onClick={() => setVisible(!visible)}
+            >
               {visible ? <IoEye /> : <IoEyeOff />}
             </button>
           </div>
@@ -122,7 +126,11 @@ export default function SubscriptionForm() {
               onChange={hChange}
               required
             />
-            <button type="button" onClick={() => setVisibleTwo(!visibleTwo)}>
+            <button
+              className="visibility"
+              type="button"
+              onClick={() => setVisibleTwo(!visibleTwo)}
+            >
               {visibleTwo ? <IoEye /> : <IoEyeOff />}
             </button>
           </div>
