@@ -9,7 +9,7 @@ export default function SubscriptionForm() {
   const [user, setUser] = useState({
     name: "",
     firstname: "",
-    // localisation: "",
+    localisation: "",
     email: "",
     confEmail: "",
     password: "",
@@ -60,16 +60,21 @@ export default function SubscriptionForm() {
               required
             />
           </section>
-          {/* <select className="localisationInput" onChange={hChange} required>
+          <select
+            className="localisationInput"
+            value={user.localisation}
+            onChange={(e) => setUser({ ...user, localisation: e.target.value })}
+            required
+          >
             <option value="---">Localisation</option>
-            <option value="Africa">Abidjan</option>
-            <option value="Asia">Beirut</option>
-            <option value="Africa">Dakar</option>
-            <option value="America">Lima</option>
-            <option value="Asia">Manila</option>
-            <option value="America">Mexico</option>
-            <option value="Europe">Paris</option>
-          </select> */}
+            <option value="Abidjan">Abidjan</option>
+            <option value="Beirut">Beirut</option>
+            <option value="Dakar">Dakar</option>
+            <option value="Lima">Lima</option>
+            <option value="Manila">Manila</option>
+            <option value="Mexico">Mexico</option>
+            <option value="Paris">Paris</option>
+          </select>
           <input
             className="emailInput"
             type="text"
