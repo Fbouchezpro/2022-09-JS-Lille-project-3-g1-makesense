@@ -21,19 +21,19 @@ export default function Home() {
         <fieldset className="filteridea">
           <legend>Priorisation </legend>
 
-          <div>
-            <input type="checkbox" id="high" name="high" />
+          <div className="prior">
             <label htmlFor="high">Haute</label>
+            <input type="checkbox" id="high" name="high" />
           </div>
 
-          <div>
-            <input type="checkbox" id="mid" name="mid" />
+          <div className="prior">
             <label htmlFor="mid">Moyenne</label>
+            <input type="checkbox" id="mid" name="mid" />
           </div>
 
-          <div>
-            <input type="checkbox" id="low" name="low" />
+          <div className="prior">
             <label htmlFor="low">Basse</label>
+            <input type="checkbox" id="low" name="low" />
           </div>
         </fieldset>
         <div className="cardx">

@@ -64,6 +64,15 @@
 .filteridea {
   padding-top: 1rem;
   padding-bottom: 1rem;
+  width: 5em;
+}
+.prior {
+  display: flex;
+  align-items: center;
+}
+
+input {
+  margin: auto 2;
 }
 .cardx {
   align-items: center;
