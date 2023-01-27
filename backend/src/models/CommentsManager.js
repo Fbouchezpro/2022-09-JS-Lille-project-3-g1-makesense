@@ -38,6 +38,13 @@ class CommentsManager extends AbstractManager {
       ]
     );
   }
+
+  count(comment) {
+    return this.connection.query(
+      `SELECT COUNT(*) FROM comments WHERE suggests_id = ?`,
+      [comment.id]
+    );
+  }
 }
 
 module.exports = CommentsManager;

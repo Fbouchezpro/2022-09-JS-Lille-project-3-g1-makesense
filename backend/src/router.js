@@ -9,6 +9,7 @@ router.get("/comments/:id", commentsControllers.read);
 router.post("/comments", commentsControllers.add);
 router.put("/comments/:id", commentsControllers.edit);
 router.delete("/comments/:id", commentsControllers.destroy);
+router.get("/comments/count/:id", commentsControllers.count);
 
 const suggestsControllers = require("./controllers/suggestsControllers");
 
@@ -26,11 +27,6 @@ router.post("/users", usersControllers.add);
 router.put("/users/:id", usersControllers.edit);
 router.delete("/users/:id", usersControllers.destroy);
 
-const authControllers = require("./controllers/authControllers");
-
-router.post("/signup", authControllers.signup);
-router.post("/login", authControllers.login);
-
 const choicesControllers = require("./controllers/choicesControllers");
 
 router.get("/choices", choicesControllers.browse);
@@ -38,5 +34,10 @@ router.get("/choices/:id", choicesControllers.read);
 router.post("/choices", choicesControllers.add);
 router.put("/choices/:id", choicesControllers.edit);
 router.delete("/choices/:id", choicesControllers.destroy);
+
+const authControllers = require("./controllers/authControllers");
+
+router.post("/signup", authControllers.signup);
+router.post("/login", authControllers.login);
 
 module.exports = router;
