@@ -39,10 +39,10 @@ class CommentsManager extends AbstractManager {
     );
   }
 
-  count(comment) {
+  count(id) {
     return this.connection.query(
       `SELECT COUNT(*) FROM comments WHERE suggests_id = ?`,
-      [comment.id]
+      [id]
     );
   }
 }
