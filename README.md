@@ -1,3 +1,7 @@
+# ![left 100%](https://www.google.com/url?sa=i&url=https%3A%2F%2Fmakesense.org%2F&psig=AOvVaw0UlGzm-CXlpyYpY5m0Sg_3&ust=1675156474095000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJCAwKb67vwCFQAAAAAdAAAAABAE)
+
+
+
 ## DESCRIPTION
 
 Welcome to our 3rd Wild Code School project.
@@ -68,12 +72,12 @@ The follow-up of these ideas is done through comments written by other employees
 * Github: [@Foulont Alexis](https://github.com/AlexisFLT)
 * LinkedIn: [@Foulont Alexis](https://www.linkedin.com/in/alexis-foulont/)
 
-👤**Kevin GUEGUEN** [🇫🇷 Contactez moi 🇬🇧](<gueguenk@gmail.com>)
+👤**Kevin GUEGUEN** 🇫🇷 Contactez moi 🇬🇧:gueguenk@gmail.com
 
 * Github: [@Kevin Gueguen](https://github.com/guenk)
 * LinkedIn: [@Kevin Gueguen](https://www.linkedin.com/in/gueguenk/)
 
-👤**Valentin WAQUET** [🇫🇷 Contactez moi 🇬🇧](<waquetv@gmail.com>)
+👤**Valentin WAQUET** 🇫🇷 Contactez moi 🇬🇧:waquetv@gmail.com
 
 * Github: [@Valentin Waquet](https://github.com/Sax593)
 * LinkedIn: [@Valentin Waquet](https://www.linkedin.com/in/valentin-waquet-420412254/)
