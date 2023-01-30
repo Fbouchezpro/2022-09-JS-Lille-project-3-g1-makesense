@@ -1,7 +1,13 @@
 ## DESCRIPTION
 
-This template is meant to serve as a foundation for every P2/P3 following the React-Express-MySQL stack, as learned in Wild Code School.
-It's pre-configured with a set of tools which'll help students produce industry-quality and easier-to-maintain code, while staying as simple as possible to use.
+Welcome to our 3rd Wild Code School project.
+
+In partnership with [@makesense](https://makesense.org/) we have developed a solution for internal decision making and ideation.
+
+The main goal of this solution is to allow each employee to propose ideas and to make them known.
+
+The follow-up of these ideas is done through comments written by other employees, then an edition of three votes on which the people impacted can make their choice to promote the final decision of the said idea.
+
 
 ## Setup & Use
 
@@ -52,12 +58,12 @@ It's pre-configured with a set of tools which'll help students produce industry-
 
 ## AUTHOR
 
-👤**Florian BOUCHEZ** [🇫🇷 Contactez moi 🇬🇧](<fbouchez.pro@gmail.com>)
+👤**Florian BOUCHEZ** [🇫🇷 Contactez moi 🇬🇧](fbouchez.pro@gmail.com)
 
 * Github: [@Bouchez Florian](https://github.com/Fbouchezpro)
 * LinkedIn: [@Bouchez Florian](https://www.linkedin.com/in/florian-bouchez-18521b23b/)
 
-👤**Alexis FOULONT** [🇫🇷 Contactez moi 🇬🇧](<alexisfoulont@gmail.com>)
+👤**Alexis FOULONT** [🇫🇷 Contactez moi 🇬🇧](alexisfoulont@gmail.com)
 
 * Github: [@Foulont Alexis](https://github.com/AlexisFLT)
 * LinkedIn: [@Foulont Alexis](https://www.linkedin.com/in/alexis-foulont/)
