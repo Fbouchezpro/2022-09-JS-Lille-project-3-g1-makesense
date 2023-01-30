@@ -58,12 +58,12 @@ The follow-up of these ideas is done through comments written by other employees
 
 ## AUTHOR
 
-👤**Florian BOUCHEZ** [🇫🇷 Contactez moi 🇬🇧](fbouchez.pro@gmail.com)
+👤**Florian BOUCHEZ** 🇫🇷 Contactez moi 🇬🇧:fbouchez.pro@gmail.com
 
 * Github: [@Bouchez Florian](https://github.com/Fbouchezpro)
 * LinkedIn: [@Bouchez Florian](https://www.linkedin.com/in/florian-bouchez-18521b23b/)
 
-👤**Alexis FOULONT** [🇫🇷 Contactez moi 🇬🇧](alexisfoulont@gmail.com)
+👤**Alexis FOULONT** 🇫🇷 Contactez moi 🇬🇧:alexisfoulont@gmail.com
 
 * Github: [@Foulont Alexis](https://github.com/AlexisFLT)
 * LinkedIn: [@Foulont Alexis](https://www.linkedin.com/in/alexis-foulont/)
