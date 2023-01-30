@@ -1,8 +1,18 @@
-# ![left 100%](https://www.google.com/url?sa=i&url=https%3A%2F%2Fmakesense.org%2F&psig=AOvVaw0UlGzm-CXlpyYpY5m0Sg_3&ust=1675156474095000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJCAwKb67vwCFQAAAAAdAAAAABAE)
+<div align="center">
 
+ <img src="https://makesense.org/wp-content/uploads/sites/4/2020/09/logo-makesense-dark.png" alt="make-sens logo" width=300px/>
+ <br>
+ <br>
+ <img src="https://www.wildcodeschool.com/static/imgs/logo.png" alt="wcs logo" width=300px/>
+ 
+ </div> 
 
 
 ## DESCRIPTION
+
+_` Start of the Project on 28/11/2022 `_
+<br>
+_` End of the Project on 01/02/2023 `_
 
 Welcome to our 3rd Wild Code School project.
 
@@ -20,6 +30,9 @@ The follow-up of these ideas is done through comments written by other employees
 - In VSCode, install plugins **Prettier - Code formatter** and **ESLint** and configure them
 - Clone this repo, enter it
 - Run command `npm run setup`
+ ```sh
+  npm run setup
+  ```
 - _NB: To launch the backend server, you'll need an environment file with database credentials. You'll find a template one in `backend/.env.sample`_
 
 ### Available Commands
@@ -59,6 +72,8 @@ The follow-up of these ideas is done through comments written by other employees
   ```
 
 ## FAQ
+
+
 
 ## AUTHOR
 
