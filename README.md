@@ -1,4 +1,4 @@
-## Concept
+## DESCRIPTION
 
 This template is meant to serve as a foundation for every P2/P3 following the React-Express-MySQL stack, as learned in Wild Code School.
 It's pre-configured with a set of tools which'll help students produce industry-quality and easier-to-maintain code, while staying as simple as possible to use.
@@ -15,14 +15,62 @@ It's pre-configured with a set of tools which'll help students produce industry-
 ### Available Commands
 
 - `setup` : Initialization of frontend and backend, as well as all toolings
+
+  ```sh
+  npm run setup
+  ```
 - `migrate` : Run the database migration script
+
+  ```sh
+  npm run migrate
+  ```
 - `dev` : Starts both servers (frontend + backend) in one terminal
+
+  ```sh
+  npm run dev
+  ```
+  
 - `dev-front` : Starts the React frontend server
+
+  ```sh
+  npm run dev-front
+  ```
+  
 - `dev-back` : Starts the Express backend server
-- `lint` : Runs validation tools, and refuses unclean code (will be executed on every _commit_)
+
+  ```sh
+  npm run dev-back
+  ```
+
 - `fix` : Fixes linter errors (run it if `lint` growls on your code !)
 
+  ```sh
+  npm run fix
+  ```
+
 ## FAQ
+
+## AUTHOR
+
+👤**Florian BOUCHEZ** [🇫🇷 Contactez moi 🇬🇧](<fbouchez.pro@gmail.com>)
+
+* Github: [@Bouchez Florian](https://github.com/Fbouchezpro)
+* LinkedIn: [@Bouchez Florian](https://www.linkedin.com/in/florian-bouchez-18521b23b/)
+
+👤**Alexis FOULONT** [🇫🇷 Contactez moi 🇬🇧](<alexisfoulont@gmail.com>)
+
+* Github: [@Foulont Alexis](https://github.com/AlexisFLT)
+* LinkedIn: [@Foulont Alexis](https://www.linkedin.com/in/alexis-foulont/)
+
+👤**Kevin GUEGUEN** [🇫🇷 Contactez moi 🇬🇧](<gueguenk@gmail.com>)
+
+* Github: [@Kevin Gueguen](https://github.com/guenk)
+* LinkedIn: [@Kevin Gueguen](https://www.linkedin.com/in/gueguenk/)
+
+👤**Valentin WAQUET** [🇫🇷 Contactez moi 🇬🇧](<waquetv@gmail.com>)
+
+* Github: [@Valentin Waquet](https://github.com/Sax593)
+* LinkedIn: [@Valentin Waquet](https://www.linkedin.com/in/valentin-waquet-420412254/)
 
 ### Tools
 
